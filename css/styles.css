@@ -22,6 +22,7 @@ Secondary Color (Orange): #e0b354;
 
 html,
 body {
+    min-height: 100vh;
     padding: 0;
     margin: 0;
     background-color: var(--backgroundColor);
@@ -138,13 +139,12 @@ li a {
 .profile {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    min-height: 60em;
     gap: 25px;
 }
 
 
 .img {
-    text-align: right;
+    text-align: center;
     align-self: center;
 }
 
