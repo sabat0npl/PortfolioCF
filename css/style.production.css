@@ -29,7 +29,7 @@ html {
 body {
   padding: 0;
   background-color: #d7e4f8;
-  margin: 0 0 100px;
+  margin: 0 0 130px;
 }
 
 h1 {
@@ -368,7 +368,7 @@ li a {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: undefined;
+  background-color: #fff;
   border-radius: 5px;
   border: 1px solid #c1c1c1;
   font-size: 14px;
@@ -405,19 +405,18 @@ li a {
 }
 
 .about-img {
-  width: 90%;
+  width: 100%;
 }
 
 .about-text {
-  width: 90%;
+  width: 100%;
   margin: 40px auto;
   line-height: 2em;
   padding: 0 25px;
 }
 
 .skills-table {
-  margin: 0 auto;
-  padding-bottom: 50px;
+  margin: 20px auto;
 }
 
 table,
@@ -426,11 +425,12 @@ td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
+  padding: 5px;
 }
 
 .button {
-  margin: 20px auto;
-  width: 25%;
+  margin: 30px auto;
+  width: 200px;
   text-align: center;
   border: none;
   display: block;
@@ -439,7 +439,7 @@ td {
   color: white;
   text-decoration: none;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 10px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
@@ -453,7 +453,7 @@ td {
 }
 
 .berlin-illustration {
-  margin: 50px auto;
+  margin: 30px auto;
   display: block;
   width: 100%;
 }
