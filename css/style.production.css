@@ -19,16 +19,20 @@ Secondary Color (Orange): #e0b354;
 }
 
 html {
+    position: relative;
+    min-height: 100%;
     padding: 0;
     margin: 0;
     background-color: #d7e4f8;
 }
 
+
 body {
-    height: 100vh;
     padding: 0;
     margin: 0;
     background-color: #d7e4f8;
+    margin: 0 0 100px;
+    /* bottom = footer height */
 }
 
 h1 {
@@ -280,6 +284,12 @@ li a {
 /* FOOTER */
 
 .page-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -288,6 +298,8 @@ li a {
     -ms-flex-direction: column;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .social-media {
@@ -429,7 +441,7 @@ td {
 }
 
 .berlin-illustration {
-    margin: 20px auto;
+    margin: 50px auto;
     display: block;
     width: 100%;
 }
