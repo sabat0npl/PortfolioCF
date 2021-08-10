@@ -29,7 +29,7 @@ html {
 body {
   padding: 0;
   background-color: #d7e4f8;
-  margin: 0 0 130px;
+  margin: 0 0 100px;
 }
 
 h1 {
@@ -251,6 +251,10 @@ li a {
   box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 }
 
+.project a {
+  padding: 10px;
+}
+
 .thumbnail {
   width: 100%;
   height: 180px;
@@ -368,7 +372,7 @@ li a {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #fff;
+  background-color: undefined;
   border-radius: 5px;
   border: 1px solid #c1c1c1;
   font-size: 14px;
@@ -405,18 +409,19 @@ li a {
 }
 
 .about-img {
-  width: 100%;
+  width: 90%;
 }
 
 .about-text {
-  width: 100%;
+  width: 90%;
   margin: 40px auto;
   line-height: 2em;
   padding: 0 25px;
 }
 
 .skills-table {
-  margin: 20px auto;
+  margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 table,
@@ -425,12 +430,11 @@ td {
   border: 1px solid black;
   border-collapse: collapse;
   text-align: center;
-  padding: 5px;
 }
 
 .button {
-  margin: 30px auto;
-  width: 200px;
+  margin: 20px auto;
+  width: 25%;
   text-align: center;
   border: none;
   display: block;
@@ -439,7 +443,7 @@ td {
   color: white;
   text-decoration: none;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 3px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   -webkit-transition: 0.2s opacity;
   -o-transition: 0.2s opacity;
@@ -453,7 +457,7 @@ td {
 }
 
 .berlin-illustration {
-  margin: 30px auto;
+  margin: 50px auto;
   display: block;
   width: 100%;
 }
